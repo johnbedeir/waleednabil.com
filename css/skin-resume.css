@@ -495,9 +495,10 @@ body,
 	.header-1-static + .content{
 		padding-top: 8rem;
 	}
+
     #download {
-        margin-top: 40%;
-        margin-left: 40%;
+        margin-top: 30%;
+        margin-left: 37%;
     }
 }
 @media only screen and (max-width: 768px){
@@ -943,6 +944,7 @@ body,
 	.header-transparent .with-division li{
 		border-right-color: rgba(255,255,255, 0.2);
 	}
+    
 }
 
 /* Transparent Header Initial, Hover & Active Colors */
@@ -1965,6 +1967,14 @@ body,
 	background: #000;
 }
 
+@media only screen and (min-width: 320px) {
+    #download {
+        
+        height: 10px;
+        
+        
+    }
+}
 
 /*------------------------------------------------------------------
 [16. Contact Pages]
@@ -3593,6 +3603,10 @@ blockquote.border{
 		border: none;
 		border-left: 1px solid #27ccc0;
 	}
+    #download {
+        margin-top: 40%;
+        margin-left: 37%;
+    }
 
 }
 
