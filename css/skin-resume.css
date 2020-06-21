@@ -292,6 +292,8 @@ a.animated-link:hover .text-line,
 	.fullscreen-section .background-on-mobile h6{
 		color: #000 !important;
 	}
+    
+
 }
 
 /*------------------------------------------------------------------
@@ -493,12 +495,18 @@ body,
 	.header-1-static + .content{
 		padding-top: 8rem;
 	}
+    #download {
+        margin-top: 40%;
+        margin-left: 40%;
+    }
 }
 @media only screen and (max-width: 768px){
 	.fullscreen-section.content-below-on-mobile .fullscreen-inner {
 		padding-top: 12rem !important;
 		padding-bottom: 12rem !important;
 	}
+    
+        
 }
 
 /*------------------------------------------------------------------
@@ -1483,6 +1491,7 @@ body,
 		padding: 11rem 0;
 		height: auto;
 	}
+    
 }
 
 /*------------------------------------------------------------------
@@ -1621,6 +1630,7 @@ body,
 	.featured-media .tms-arrow-nav{
 		display: none !important;
 	}
+    
 }
 
 /*------------------------------------------------------------------
@@ -1955,6 +1965,7 @@ body,
 	background: #000;
 }
 
+
 /*------------------------------------------------------------------
 [16. Contact Pages]
 */
@@ -2102,6 +2113,8 @@ h4.project-title{
 		margin-left: 2.5rem;
 		margin-right: 2.5rem;
 	}
+    
+    
 }
 
 /*------------------------------------------------------------------
@@ -2300,6 +2313,11 @@ h4.project-title{
 	.blog-wide .post-title{
 		font-size: 3rem;
 	}
+    
+#download {
+    margin-top:40%;
+    margin-left:35%;
+}
 }
 
 /* Regular Blog */
@@ -2891,6 +2909,11 @@ textarea.required-field{
 	.footer-top.two-columns-on-tablet > .row > [class*="width-"]{
 		width: 100% !important;
 	}
+    
+    #download {
+    margin-top:45%;
+    margin-left:36%;
+}
 }
 
 /*------------------------------------------------------------------
@@ -3570,6 +3593,7 @@ blockquote.border{
 		border: none;
 		border-left: 1px solid #27ccc0;
 	}
+
 }
 
 /* Menus */
@@ -3627,6 +3651,7 @@ blockquote.border{
 		width: 0.2rem;
 		left: 1.9rem;
 	}
+    
 }
 
 /* Pricing Tables */
