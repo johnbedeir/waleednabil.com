@@ -276,7 +276,9 @@ a.animated-link:hover .text-line,
 	.tmp-content .title-xlarge{
 		font-size: 5.826rem;
 		line-height: 5.826rem;
+        
 	}
+
 
 	/* Helpers */
 	.fullscreen-section .background-on-mobile{
@@ -381,15 +383,23 @@ body,
 .border-hover-charcoal:hover{
 	border-color: #232323;
 }
+.border-charcoal:hover {
+    color: #000;
+}
+
 .color-charcoal,
 .color-hover-charcoal:hover{
-	color: #232323;
+	color: #fff;
 }
 
 /* theme */
 .bkg-theme{
-	background-color: #67e0e1;
-	border-color: #67e0e1;
+	background-color: transparent;
+	border-color: #fff;
+}
+.bkg-theme:hover {
+    background-color:#fff; 
+    color: #000;
 }
 .bkg-hover-theme:hover{
 	background-color: #67e0e1;
@@ -1477,6 +1487,7 @@ body,
 .intro-title-2-2{
 	background-image: url(../images/slider/slide-9-page-intro.jpg);	
 }
+
 @media only screen and (max-width: 768px){
 	[class*="intro-title-"],
 	[class*="intro-title-"].small{
@@ -3535,6 +3546,7 @@ blockquote.border{
 		border: none;
 		border-left: 1px solid #5d5a54;
 	}
+    
 }
 
 /* Menus */
