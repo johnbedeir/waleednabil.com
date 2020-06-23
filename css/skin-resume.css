@@ -3802,6 +3802,21 @@ only screen and (				min-resolution: 2dppx) {
 	}
 }
 
+@media screen 
+             and (min-width: 360px) and (max-width:747px) {
+               
+                 .social-about {
+                     margin-left: 80px;
+                     padding-top: 30px;
+                 }
+                 
+                 .btn-about {
+                     border-width: 1px;
+                     padding: 5px 27px 5px 27px;
+                     opacity: 60%;
+                 }
+
+            }
 
 @media screen 
              and (min-width: 1080px) and (max-width:1920px) {
@@ -3816,3 +3831,6 @@ only screen and (				min-resolution: 2dppx) {
                  }
 
             }
+
+
+
