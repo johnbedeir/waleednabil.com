@@ -3822,13 +3822,11 @@ only screen and (				min-resolution: 2dppx) {
              and (min-width: 1080px) and (max-width:1920px) {
                
                  .social-about {
-                     margin-left: 470px;
-                     padding-top: 30px;
+                     margin-left: 440px;
+                     padding-top: 0px;
                  }
                  
-                 .btn-about {
-                     margin-left: 480px;
-                 }
+                 
 
             }
 
