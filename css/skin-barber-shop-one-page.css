@@ -42,6 +42,16 @@ Copyright: ThemeMountain
 [1. Typography]
 */
 
+@font-face {
+  font-family: Unisansthincaps;
+  src: url(../fonts/Uni Sans Heavy.otf);    
+}
+
+@font-face {
+  font-family: abugslifedebuggedRegular;
+  src: url(../fonts/a bugs life  debugged Regular.ttf);    
+}
+
 body{
 	font-family: 'Lato', 'Helvetica Neue', sans-serif;
 	letter-spacing: 0;
@@ -3754,12 +3764,18 @@ only screen and (				min-resolution: 2dppx) {
 @media only screen and (min-width: 320px) and (max-width:812px) {
     .name-mob h3 {
         color: #fff;
-        opacity: 50%
+        opacity: 50%;
+        font-weight: bold;
         
     }
     .name-mob h4 {
         color: #fff;
-        opacity: 50%
+        opacity: 50%;
+        font-family: Unisansthincaps;
+        letter-spacing: 0.5rem;
+        font-size: 1rem;
+     
+        
     }
 }
 
