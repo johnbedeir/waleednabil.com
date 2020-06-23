@@ -1426,7 +1426,7 @@ body,
 .overlay-navigation > ul > li > a:hover,
 .overlay-navigation > ul > li.current > a,
 .overlay-navigation ul li.current > a:hover{
-	color: #000;
+	color: #fff;
 }
 
 /* Overlay Nav Widget */

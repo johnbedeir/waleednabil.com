@@ -1155,6 +1155,7 @@ body,
 }
 
 /* Side Navigation Background Color */
+
 .side-navigation-wrapper .logo{
 	width: 12rem;
 }
@@ -1178,7 +1179,7 @@ body,
 	position: relative;
 }
 .side-navigation ul li.current > a{
-	color: #fff;
+	color: #000;
 	font-weight: 400;
 }
 .side-navigation > ul > li > a:after {
@@ -1186,7 +1187,7 @@ body,
 	height: 0.1rem;
 	margin-left: 0;
 	content: "";
-	background-color: #fff;
+	background-color: #000;
 	opacity: 0;
 	position: absolute;
 	left: 0;
@@ -3748,4 +3749,24 @@ only screen and (				min-resolution: 2dppx) {
 	.signup-2-1{
 		background-image: url(../images/barber-shop/generic/signup-1@2x.jpg);
 	}
+}
+
+@media only screen and (min-width: 320px) and (max-width:812px) {
+    .name-mob h3 {
+        color: #fff;
+        opacity: 50%
+        
+    }
+    .name-mob h4 {
+        color: #fff;
+        opacity: 50%
+    }
+}
+
+@media only screen and (min-width: 813px){
+    .name-mob {
+        display: none;
+        
+    }
+    
 }
