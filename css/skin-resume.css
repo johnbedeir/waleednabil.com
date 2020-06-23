@@ -3801,3 +3801,18 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/resume/generic/signup-1@2x.jpg);
 	}
 }
+
+
+@media screen 
+             and (min-width: 1080px) and (max-width:1920px) {
+               
+                 .social-about {
+                     margin-left: 470px;
+                     padding-top: 30px;
+                 }
+                 
+                 .btn-about {
+                     margin-left: 480px;
+                 }
+
+            }

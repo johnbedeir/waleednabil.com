@@ -401,12 +401,14 @@ body,
 
 /* theme */
 .bkg-theme{
-	background-color: #0cbacf;
-	border-color: #0cbacf;
+	background-color: transparent;
+	border-color: #fff;
+    opacity: 40%
 }
 .bkg-hover-theme:hover{
-	background-color: #0badc1;
-	border-color: #0badc1;
+	background-color: transparent;
+	border-color: transparent;
+    opacity: 60%;
 }
 .border-theme{
 	border-color: #0cbacf;
@@ -2454,7 +2456,7 @@ h3.project-title{
 .form-element, 
 textarea{
 	margin-bottom: 3rem;
-	background-color: #fff;
+	background-color: #000;
 	border: 1px solid #ddd;
 }
 .form-element, 
@@ -2468,7 +2470,7 @@ select{
 }
 .form-element:focus, 
 textarea:focus{
-	background-color: #ddd;
+	background-color: lightgray;
 	border-color: #ddd;
 	box-shadow: none;
 	color: #000;
@@ -2511,11 +2513,13 @@ textarea.required-field{
 .radio-label{
 	color: #666;
 	position: relative;
+    
 }
 .checkbox + .checkbox-label:before, 
 .radio + .radio-label:before{
-	background: #fff;
+	background: transparent;
 	border-color: #ddd;
+    opacity: 40%;
 }
 .checkbox:checked + .checkbox-label,
 .radio:checked + .radio-label{
@@ -2523,9 +2527,9 @@ textarea.required-field{
 }
 .checkbox:checked + .checkbox-label:before {
 	content: '\e63a';
-	background: #0cbacf;
+	background: lightblue;
 	border-color: #0cbacf;
-	color: #fff;
+	color: #000;
 }
 .radio:checked + .radio-label:before {
 	background: #0cbacf;

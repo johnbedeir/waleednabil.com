@@ -306,6 +306,7 @@ iframe {
 	.fullscreen-section .background-on-mobile h6{
 		color: #000 !important;
 	}
+    
 }
 
 /*------------------------------------------------------------------
@@ -3748,3 +3749,63 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/travel-agency/generic/signup-1@2x.jpg);
 	}
 }
+
+/* Mobile & Tablet Screens: Portrai & Landscape */
+        @media screen 
+             and (min-width: 320px) and (max-width:360px) {
+               
+                 iframe{
+                     width:100%;
+                     position: relative;
+                     padding-bottom: 60%;
+                 }
+
+            }
+        
+        @media screen 
+             and (min-width: 320px) and (max-width:747px) {
+               
+                 iframe{
+                     width:100%;
+                     position: relative;
+                     padding-bottom: 100%;
+                 }
+
+            }
+
+        @media screen 
+             and (min-width: 768px) and (max-width:811px){
+               
+                 iframe{
+                     width:100%;
+                     position: relative;
+                     
+                 }
+
+            }
+
+
+
+        @media screen 
+             and (min-width: 812px) and (max-width:1024px) {
+               
+                 iframe{
+                     width:120%;
+                     position: relative;
+                     padding-right: 30%;
+                 }
+                 
+
+            }
+        
+
+
+
+
+
+
+
+                
+
+        /* Mobile & Tablet Screens: Portrai & Landscape */
+ 
