@@ -594,7 +594,7 @@ body,
 	.header .header,
 	.header .header-inner,
 	.header.header-transparent .header-inner{
-		background-color: #fff;
+		background-color: #000;
 	}
 	.header .header-inner{
 		border-bottom: 1px solid #eee;

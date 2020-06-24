@@ -42,16 +42,6 @@ Copyright: ThemeMountain
 [1. Typography]
 */
 
-@font-face {
-  font-family: Unisansthincaps;
-  src: url(../fonts/Uni Sans Heavy.otf);    
-}
-
-@font-face {
-  font-family: abugslifedebuggedRegular;
-  src: url(../fonts/a bugs life  debugged Regular.ttf);    
-}
-
 body{
 	font-family: 'Lato', 'Helvetica Neue', sans-serif;
 	letter-spacing: 0;
@@ -316,7 +306,7 @@ body,
 .featured-media:after,
 .section-block:not([class*="bkg-"]),
 .fullscreen-sections-wrapper{
-	background-color: #fff;
+	background-color: #000;
 }
 .section-block.featured-media,
 .section-block.fullscreen-section{
@@ -599,7 +589,7 @@ body,
 	.header .header,
 	.header .header-inner,
 	.header.header-transparent .header-inner{
-		background-color: #fff;
+		background-color: #000;
 	}
 	.header .header-inner{
 		border-bottom: 1px solid #eee;
