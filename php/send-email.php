@@ -93,7 +93,7 @@
 	$headers .= 'X-Mailer: PHP/' . phpversion();
 
 	// Subject
-	$subject = "New email from contact form";
+	$subject = "Contact form";
 
 	// Build Message
 	$email_content = "First Name: $fname\n";
