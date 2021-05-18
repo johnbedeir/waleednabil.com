@@ -1,3 +1,6 @@
+"dependencies": {
+  "grunt": ">=1.3.0"
+}
 module.exports = function(grunt) {
 
 	// Project configuration.
